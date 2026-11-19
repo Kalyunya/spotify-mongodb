@@ -31,5 +31,12 @@ collection.createIndex(
     { artists: 1 }
 );
 
+// 6. Compound index for instrumental background tracks
+collection.createIndex({
+    "audio_features.instrumentalness": 1,
+    "audio_features.speechiness": 1,
+    explicit: 1
+});
+
 print("Indexes created successfully!");
 printjson(collection.getIndexes());

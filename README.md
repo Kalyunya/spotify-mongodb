@@ -29,11 +29,10 @@ spotify_mongodb/
 │   └── 03_create_indexes.js
 ├── queries/
 │   ├── part2_queries.js
-|   └── part3_indexes.js
+│   └── part3_indexes.js
 ├── dataset.csv
 ├── requirements.txt
 ├── test_connection.py
-├── .env
 ├── .gitignore
 ├── README.md
 └── README_UA.md
